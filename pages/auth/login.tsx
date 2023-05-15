@@ -4,6 +4,7 @@ import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper';
 import 'swiper/css/bundle';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import carouselInfo from '../../carouselInfo.json';
+import Alert from '../../components/sweetAlert/Alert';
 import flagMexico from '../../public/images/emojione-v1_flag-for-mexico.svg';
 
 const login = () => {
@@ -113,6 +114,7 @@ const login = () => {
           </Swiper>
         </aside>
       </div>
+      <Alert></Alert>
     </>
   );
 };
