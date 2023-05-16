@@ -14,10 +14,10 @@ const three = () => {
           </Link>
         </div>
       </header>
-      <div className="w-full xs:h-8 lg:h-14 relative xs:mb-5 bottom-[1px] md:mb-10">
+      <div className="FIGURE w-full xs:h-8 lg:h-14 relative xs:mb-5 bottom-[1px] md:mb-10">
         <div className={styles.header__figure}></div>
       </div>
-      <div className="min-h-screen max-w-7xl mx-auto">
+      <section className="min-h-screen max-w-7xl mx-auto">
         <Link href="/" className="xs:ml-5 underline text-blue">
           {`<Back to home`}
         </Link>
@@ -230,7 +230,7 @@ const three = () => {
               </div>
             </form>
           </div>
-          <div className="max-w-[350px] xs:hidden md:block md:mr-3 md:mt-10">
+          <div className="SAVE-AND-PAY max-w-[350px] xs:hidden md:block md:mr-3 md:mt-10">
             <div className="bg-backgroud w-[285px] h-[343px] mb-7 p-6 rounded-xl">
               <h2 className=" font-Nunito font-bold text-xl text-DarkBlue">
                 Next step
@@ -248,7 +248,7 @@ const three = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <footer className="bg-DarkBlue">
         <div className="xs:py-6 xs:px-8 xs:flex xs:justify-between xs:items-center mx-auto w-full max-w-7xl">
           <div className=" md:flex md:items-center md:gap-2">
